@@ -1,0 +1,209 @@
+
+Open source broadly means source available with rights for you to re-use code.
+
+Poster child is Linux
+But also FireFox, Open Office, GIMP, LAMP stack
+
+Benefits
+
+- Idealogical; software should be free.
+
+- Free (kinda)
+
+- Better Quality (Many eyes make bugs shallow)
+
+- You can change it yourself – misses the point cos most people aren't programmers - but others can change it so may find what you want done
+
+- Support. Heavy community offering
+
+Downsides
+
+- Idealogy. Many vs arguments and also people who won't compromise.
+
+- Not Free. Cost of hosting, managing it and problem fixing.
+
+- Support. Often no official
+
+- Forks. But this rarely happens
+
+
+Who
+- Wikipedia
+- Wordpress, Drupal, Joomla
+- LAMP Stack, FaceBook PHP and Google use MySQL
+- Of course, Elastik!
+
+Why do personal ppl contribute?
+
+Gift economy - people like recognition for skills or kindness
+
+To practical ends - Some jobs ask for code examples
+
+To scratch an itch - BobChess http://code.google.com/p/bobchess
+
+Licenses: look at this because
+- a more legal/strict definition of open source
+- because “open source rejects copyright” is a false statement, OS actually relies on copyright
+- interesting. kinda
+
+BSD/MIT, no conditions attached (sometimes no attribution) eg PHP
+
+GPLv2, most famous, must redistribute with rights.
+
+Problems with what counts as linkage 
+- wordpress theme battle - Theme author claims he could release his work under any license he liked. Wordpress author felt it depended on Wordpress so should be GPL. Claimed resolved: answer is PHP is GPLv2 and the CSS, JS, and images are proprietary. http://thenextweb.com/socialmedia/2010/07/22/wordpress-vs-thesis-the-battle-is-over/
+
+But libraries - LGPL
+
+But what about web apps; does using app over network count as distributing? No! - AGPL
+
+But what about software patents? 
+- to many things patented
+- companies build up big portfolios
+- usually truce, but this keeps out smaller new competitors
+- and when truce breaks down
+- techdirt Chart http://www.techdirt.com/blog/wireless/articles/20101007/22591311328/meet-the-patent-thicket-who-s-suing-who-for-smartphone-patents.shtml
+- “Patents owned by Open Invention Network are available royalty-free to any company, institution or individual that agrees not to assert its patents against the Linux System.“ http://www.openinventionnetwork.com/
+Problem for open source as source can be open but patent can stop re-use
+GPLv3 has clauses
+
+Cryptographic Key codes (tivo) & DRM - so GPLv3
+
+Creative commons - what is non-commercial use?
+- is non-commercial if blog has has ads for provider or you making small money?
+- Is non-commercial if just illustration, not main content?
+- If I end up getting a job because of my "personal use" of your content, does it suddenly morph into "commercial use" http://www.techdirt.com/articles/20081207/2239253051.shtml
+- Can I use NC in this talk - not paid - but talking about Elastik from commercial company?
+Canadian radio station stops CC music cos of worries http://www.techdirt.com/articles/20101008/14251511343/cbc-stops-using-creative-commons-music-over-concerns-about-commercial-vs-non-commercial-use.shtml
+
+Silly ones - postcard license http://a2.pluto.it/a21235.htm
+
+License proliferation serious problem
+GPL2 incompatible with GPL3 http://www.gnu.org/licenses/rms-why-gplv3.html
+
+OSI approves licenses - many say it approves to many
+Recent debate with Google putting license in only if it's marked not suitable for use.
+
+Needles to say, controversial topic
+
+Why do business contribute?
+
+Sell Support Contracts - RedHat, Canonical
+
+Sell premium features.
+
+Sell consulting & additional dev on top of your own or others software
+Altho in this case additional dev can be closed-source (Dan's point)
+
+Drive adoption - Google.
+
+Have others work on code for them
+
+Dual licenses 
+- In software, but require fiddly agreements
+- RiverSimple, building hydrogen fuel cell cars. Open plans at 40fires.org - but may use patents. Will be free to other contributors to the car design but others will pay. (Dual licensing in effect, using patents)
+
+Who really contributes? Difficult, most users will not code 
+- OpenOffice http://www.osnews.com/story/20376/Measuring_the_True_Success_of_OpenOffice_org
+But can promote, support, document, file bugs
+
+Critics of ppl who use open source and not support? 
+- Ubuntu argument - http://www.linuxjournal.com/content/ubuntu-empire-strikes-back
+- Google not allowing AGPL on code.google.com http://groups.google.com/group/google-code-hosting/browse_thread/thread/1714c5c0ef5d9f9f/7d59a938d295bb8f officially license proliferation but cynics say it would mean Google can't re-use code.  Only this September was finally allowed http://googlecode.blogspot.com/2010/09/license-evolution-and-hosting-projects.html
+- Startups using o.s. and not contributing http://zedshaw.com/blog/2009-07-13.html
+
+Open means no control - object to military use? http://slashdot.org/linux/03/03/02/0216215.shtml
+
+Open vs closed computing environments
+- Data locked in cloud, eg fb
+- Walled garden environments like iPhone
+
+Open vs closed innovation environments
+http://www.ted.com/talks/lang/eng/johanna_blakley_lessons_from_fashion_s_free_culture.html
+
+Elastik
+- we are building product on top
+- release BSD for ease and give something back
+
+Every project is different
+
+Mailing lists, forums
+
+Different ones for devs and users
+First point of contact.
+
+Planning
+
+Interpreting requirements from non-technical users or worse, users who think they are technical
+
+In contracts, working out what falls inside or outside contract and thus what costs extra is hard
+Want to give freebies to look good and avoid arguments, can't give to many
+
+Communication
+
+Very important & traditionally hard to do.
+IRC, chat
+
+Issue Trackers
+
+Bugs filed
+Triage process - look up Ubuntu
+Attach patch or Confirm, pinpoint, fix
+
+Work organised, tasks assigned, commented on.
+
+Version Control to get bleeding edge code
+
+Manages code and multiple versions/branches of code for you
+Provides history
+
+Subversion
+
+TRY https://openhatch.org/missions/svn
+
+Check out
+Work
+Diff
+Commit
+
+Git
+
+Decentralised
+
+Can be used in centralised way
+
+Can be used in very complex ways.
+
+Tests
+
+Very basic coverage as Unis cover this well.
+
+Importance to test for regression
+Also just for development; if coding something with many different inputs doing tests first can save you time in testing as you code and make you think about what you are writing.
+
+Selenium, web browser tests
+
+Patching and reporting
+
+Making a patch and report in issue tracker
+
+Documentation
+
+Docs in comments often turned into automatic documentation
+
+Release
+
+Alpha-Beta-released, then supported for a certain amount of time after superseded
+Open Source traditionally very conservative, Subversion didn't declare released for years.
+
+Handling security - responsible disclosure
+
+Various methodologies
+
+Basic difference is how long the planning-code-test-feedback cycle is 
+Can be 1 cycle per project that lasts months
+Agile programming, can be cycle every week or two
+Proponents say this makes teams focus on most important features, increases feedback loop
+Opponents say unsuitable for big projects
+
+
