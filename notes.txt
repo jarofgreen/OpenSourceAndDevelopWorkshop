@@ -112,7 +112,9 @@ Critics of ppl who use open source and not support?
 - Google not allowing AGPL on code.google.com http://groups.google.com/group/google-code-hosting/browse_thread/thread/1714c5c0ef5d9f9f/7d59a938d295bb8f officially license proliferation but cynics say it would mean Google can't re-use code.  Only this September was finally allowed http://googlecode.blogspot.com/2010/09/license-evolution-and-hosting-projects.html
 - Startups using o.s. and not contributing http://zedshaw.com/blog/2009-07-13.html
 
-Open means no control - object to military use? http://slashdot.org/linux/03/03/02/0216215.shtml
+Open means no control 
+- object to military use? http://slashdot.org/linux/03/03/02/0216215.shtml
+- Peta animal rights open source license. It's incompatible with the Open Source Initiatives (OSI) definition of open-source software, since it does not comply with their 6th condition "No Discrimination Against Fields of Endeavor" http://tech.slashdot.org/story/10/05/21/1246253/PETA-Creates-New-Animal-Friendly-Software-License
 
 Open vs closed computing environments
 - Data locked in cloud, eg fb
