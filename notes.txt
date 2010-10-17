@@ -130,6 +130,10 @@ Open model applied elsewhere
 - Architecture for Humanity, Creative Commons Buildings http://www.ted.com/talks/cameron_sinclair_on_open_source_architecture.html
 - Gold company asked for suggestions on where to mine
 
+KISS
+- Unix model of one simple tool to do job often applies
+- and in general KISS
+
 Elastik
 - we are building product on top
 - release BSD for ease and give something back
