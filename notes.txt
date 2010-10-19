@@ -18,7 +18,7 @@ Benefits
 
 Downsides
 
-- Idealogy. Many vs arguments and also people who won't compromise.
+- Idealogy. Many vs arguments (Fragmentation) and also people who won't compromise.
 
 - Not Free. Cost of hosting, managing it and problem fixing.
 
@@ -44,7 +44,7 @@ To scratch an itch - BobChess http://code.google.com/p/bobchess
 Licenses: look at this because
 - a more legal/strict definition of open source
 - because “open source rejects copyright” is a false statement, OS actually relies on copyright
-- interesting. kinda
+- licenses introduce problems 
 
 BSD/MIT, no conditions attached (sometimes no attribution) eg PHP
 
@@ -77,6 +77,10 @@ Creative commons - what is non-commercial use?
 Canadian radio station stops CC music cos of worries http://www.techdirt.com/articles/20101008/14251511343/cbc-stops-using-creative-commons-music-over-concerns-about-commercial-vs-non-commercial-use.shtml
 
 Silly ones - postcard license http://a2.pluto.it/a21235.htm
+
+Code Contributer Agreements
+- SCO & Novell case
+- at times (Dual Sicensing) compulsary
 
 License proliferation serious problem
 GPL2 incompatible with GPL3 http://www.gnu.org/licenses/rms-why-gplv3.html
@@ -140,6 +144,12 @@ Elastik
 
 Every project is different
 
+Project Hosting
+- code.google.com
+- github.com
+- sourceforge.net
+- github.com and other people provide same for closed source 
+
 Mailing lists, forums
 
 Different ones for devs and users
@@ -158,6 +168,11 @@ Communication
 
 Very important & traditionally hard to do.
 IRC, chat
+
+Managing volunteers is harder than managing employees
+- Jono Bacon: The art of community
+- Karl Fogel: Producing Open Source Software, How to Run a Successful Free Software Project
+
 
 Issue Trackers
 
