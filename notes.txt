@@ -53,7 +53,7 @@ GPLv2, most famous, must redistribute with rights.
 Problems with what counts as linkage 
 - wordpress theme battle - Theme author claims he could release his work under any license he liked. Wordpress author felt it depended on Wordpress so should be GPL. Claimed resolved: answer is PHP is GPLv2 and the CSS, JS, and images are proprietary. http://thenextweb.com/socialmedia/2010/07/22/wordpress-vs-thesis-the-battle-is-over/
 
-But libraries - LGPL
+But libraries force programs open? Some say not a problem, others: LGPL
 
 But what about web apps; does using app over network count as distributing? No! - AGPL
 
@@ -63,9 +63,9 @@ But what about software patents?
 - usually truce, but this keeps out smaller new competitors
 - and when truce breaks down
 - techdirt Chart http://www.techdirt.com/blog/wireless/articles/20101007/22591311328/meet-the-patent-thicket-who-s-suing-who-for-smartphone-patents.shtml
-- “Patents owned by Open Invention Network are available royalty-free to any company, institution or individual that agrees not to assert its patents against the Linux System.“ http://www.openinventionnetwork.com/
 Problem for open source as source can be open but patent can stop re-use
 GPLv3 has clauses
+- “Patents owned by Open Invention Network are available royalty-free to any company, institution or individual that agrees not to assert its patents against the Linux System.“ http://www.openinventionnetwork.com/
 
 Cryptographic Key codes (tivo) & DRM - so GPLv3
 
@@ -80,7 +80,7 @@ Silly ones - postcard license http://a2.pluto.it/a21235.htm
 
 Code Contributer Agreements
 - SCO & Novell case
-- at times (Dual Sicensing) compulsary
+- at times (Dual Licensing) compulsary
 
 License proliferation serious problem
 GPL2 incompatible with GPL3 http://www.gnu.org/licenses/rms-why-gplv3.html
@@ -159,6 +159,8 @@ Planning
 
 Interpreting requirements from non-technical users or worse, users who think they are technical
 
+Knowing when to hack in and when to generalise
+
 In contracts, working out what falls inside or outside contract and thus what costs extra is hard
 Want to give freebies to look good and avoid arguments, can't give to many
 
@@ -170,9 +172,11 @@ Very important & traditionally hard to do.
 IRC, chat
 
 Managing volunteers is harder than managing employees
+Good lesson to learn, managing employees & group work in motivational way better than big stick way
 - Jono Bacon: The art of community
 - Karl Fogel: Producing Open Source Software, How to Run a Successful Free Software Project
-
+eg
+- Make issues about work not personal 
 
 Issue Trackers
 
@@ -195,6 +199,7 @@ Check out
 Work
 Diff
 Commit
+Branches
 
 Git
 
